@@ -1,0 +1,10 @@
+Deberás:
+
+Recorrer con una expresión regular de todos los médicos y guardar en una tabla ID de médico, obras sociales y dirección.
+
+Pasar la direccion por una api de google, validar el domicilio y guardar latitud y longitud
+
+Crear un reporte de consulta con filtro por especialidad, provincia y barrio
+
+**No te preocupes por la estética, sino por el código**
+

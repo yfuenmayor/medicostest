@@ -71,7 +71,7 @@ Run
 
 - Iniciar la app con la url: http://localhost/medicostest/
 
-- Al iniciar solo se muestra el reporte sindatos y los combos de seleccion vacios, se tiene que pulsar el boton que esta en la parte superior izquierda para importar los datos del Excel a la base de datos.
+- Al iniciar se muestra el reporte sindatos y los combos de seleccion vacios, se tiene que pulsar el boton que esta en la parte superior izquierda para importar los datos del Excel a la base de datos.
 
 - Luego de cargados podra visualizar el reporte general y poder buscar por los filtros requeridos.
 

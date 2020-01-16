@@ -8,7 +8,10 @@ $(document).ready(function () {
     // Definimos la URL
     var Urlbase = $('#url').val()
 
-
+$(document).on('click', '#import', function(event) {
+    event.preventDefault();
+    alert('Importamos')
+});
 
 
 

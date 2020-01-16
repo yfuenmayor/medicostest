@@ -1,34 +1,35 @@
-*******************
-What is CodeIgniter
-*******************
+**************
+Prueba Medicos 
+**************
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+Prueba para probar las habilidades de programacion para ingreso a la empresa
 
-************
-What is HMVC
-************
 
-HMVC stands for Hierarchical Model View Controller application design pattern which makes your application modular. It
-give you chance to separate the controller, model and view in to some module so you can maintenance or improve the application easily.
+**************
+Requerimientos
+**************
 
-*******************
-Server Requirements
-*******************
+Deberás:
 
-PHP version 5.6 or newer is recommended.
+Recorrer con una expresión regular de todos los médicos y guardar en una tabla ID de médico, obras sociales y dirección.
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+Pasar la direccion por una api de google, validar el domicilio y guardar latitud y longitud
 
-************
-Installation
-************
-- Default CodeIgniter installation: https://codeigniter.com/user_guide/installation/index.html
-- Via Composer : composer create-project alzen8work/ci_hmvc
+Crear un reporte de consulta con filtro por especialidad, provincia y barrio
+
+--No te preocupes por la estética, sino por el código--
+
+***************
+Funcionamiento:
+***************
+
+Segun los requerimientos la app se programo para leer los daros de un archivo Excel e ingresar los mismos a la base de datos. Esta importacion de hace con los datos del archivo medicos.xlsx que se encuentra en el directorio: medicostest/assets/medicos.xlsx A traves de un imput tipo file.
+
+Luego de leer el archivo y cargar los datos en la base de datos se mostrara una tabla con un listado de todos los medicos disponibles (siendo este un reporte general). Para obtener un reporte mas detallado se utilizaran los combos de opciones que se muestran arriba de la tabla.
+
+***
+Run
+***
+- Seleccionar el archivo de medicos que se encuentra en: medicostest/assets/medicos.xlsx y pulsar el boton de importar
+- Para obtener un reporte detallado usar los combos de seleccion y pulsar buscar
+
